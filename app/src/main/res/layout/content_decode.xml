@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="5"
+    android:columnCount="1"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/decode_instructions"/>
+
+    <edu.doane.ist.sudokuharvester.SuDoKuGridView
+        android:layout_width="match_parent"
+        android:id="@+id/sdk_grid"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/select_diff_text"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/difficulties_spinner"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/upload_button"
+        android:text="@string/upload_text"/>
+
+
+</GridLayout>

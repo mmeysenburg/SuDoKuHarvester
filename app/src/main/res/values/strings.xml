@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SuDoKu Harvester</string>
+    <string name="start_welcome">Welcome to the Doane SuDoKu Harvester!</string>
+    <string name="start_text">First, take a picture of the puzzle. Fill as much of the image with the puzzle as possible.</string>
+    <string name="start_photo_button">Take photo</string>
+    <string name="title_activity_decode">DecodeActivity</string>
+    <string name="decode_instructions">Tap cells to correct puzzle numbers</string>
+    <string-array name="difficulties_array">
+        <item>Very Easy</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>Very Hard</item>
+        <item>Expert</item>
+    </string-array>
+    <string name="select_diff_text">Select difficulty</string>
+    <string name="upload_text">Upload</string>
+</resources>
